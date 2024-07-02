@@ -1,3 +1,22 @@
+This Application Has following functionalities:-
+- Allows admin to create and save employees and their metadata (name, designation, CTC, and email)
+- Allows admin to create and save vendors and their metadata (name, email, upi)
+- Allows admin to send an email to a list of vendors with a templated message (i.e. "Sending payments to vendor { name } at upi { upi }") and sends the email with the templated fields populated
+- Allows admin to view all the emails that have been sent to vendors
+- Allows admin to view all vendors and employees that he has created
+
+  **To Replicate ReactJs App you need to follow**
+  - Copy all the files to a new folder which would be your app
+  - go to cmd andbrouse to the flder location there.
+  - use **npm Install** in this directory, it will install all other modules for you.
+  - now run **npm start** to run the application.
+  - 
+ 
+  **The backend Spring Boot file 'admin' is complete you just need to**
+  - go the application.properties file and there change the database link to the oe you are going to connect it to.
+  - also keep in mind to give your MySQL Password
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
